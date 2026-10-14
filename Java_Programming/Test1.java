@@ -162,6 +162,7 @@
 
 
 
+// Incapsulation.java
 class Marvellous
 {
     public int No1;
@@ -176,12 +177,12 @@ class Marvellous
 
     public void showPrivateData()
     {
-        System.out.println("Private Data: No3", No3);
+        System.out.println("Private No3: "+No3);
     }
 
-    public void gun()
+    private void gun()
     {
-        System.out.println("Inside gun....");
+        System.out.println("Inside gun...");
     }
 
     public void callingPrivateMethod()
@@ -190,18 +191,18 @@ class Marvellous
     }
 }
 
-class Incapsulation
+class Test1
 {
     public static void main(String A[])
     {
-        Marvellous mboj = new Marvellous();
+        Marvellous mobj = new Marvellous();
 
         System.out.println(mobj.No1);
         System.out.println(mobj.No2);
 
         mobj.showPrivateData();
-        mobj.callingPrivateMethod()
+        mobj.callingPrivateMethod();
 
-        mobj.gun()
+        mobj.fun();
     }
 }
