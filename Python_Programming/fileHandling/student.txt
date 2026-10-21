@@ -1,0 +1,3 @@
+Name: prashik
+Language: Python
+Goal: AD
