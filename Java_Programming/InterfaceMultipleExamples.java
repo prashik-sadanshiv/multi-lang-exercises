@@ -146,6 +146,6 @@ class InterfaceMultipleExamples
 
         pobj.pay(10000);
 
-        
+         
     }
 }
